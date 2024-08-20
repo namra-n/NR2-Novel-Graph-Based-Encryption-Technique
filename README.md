@@ -6,12 +6,18 @@ NR2 is a Python-based encryption and decryption algorithm designed to offer an i
 **Exection**
 Locate the use.py script within the project directory for execution.
 
-***Project Structure***
+**Project Structure**
+
 *hyper_graph.py*: Responsible for generating the hypergraph representation of the plaintext message based on the user-provided degree sequence and seed.
+
 *enc.py*: Implements the encryption logic, performing internal operations on the hypergraph vertices.
+
 *decryption.py*: Reverses the encryption process, returning the decrypted plaintext from the encrypted ciphertext.
+
 *NR2.py*: Imports all necessary modules and functions to orchestrate the encryption and decryption operations.
+
 *use.py*: The main script that interacts with the user, collects input, drives the encryption/decryption processes using other modules, and displays the results.
+
 
  
 
